@@ -1,17 +1,11 @@
-import "./App.css";
-//import DemoAntd2 from "./components/DemoAntd2";
-//import DemoAnt from "./components/DemoAntd";
+import logo from './logo.svg';
 import TodoList from "./CRUDTodoList/TodoList";
- //import DemoBootstrap from "./components/DemoBootstrap";
- 
+import './App.css';
 
 function App() {
   return (
-    <div className='App'>
-      { /*<DemoBootstrap />*/}
-      {<TodoList />}
-     { /*<DemoAnt />*/}
-     {/*<DemoAntd2/>*/}
+    <div className="App">
+      <TodoList />
     </div>
   );
 }

@@ -36,28 +36,3 @@
     transform: rotate(360deg);
   }
 }
-*{
-  margin:0;
-  padding: 0;
-  box-sizing: border-box;
-}
-h1{
-font-family: 'Acme',sans-serif;
-letter-spacing: 2px;
-margin-bottom: 15px;
-}
-ul li{
-  cursor: pointer;
-  position: relative;
-  padding: 12px 8px 12px 40px;
-  list-style-type:none;
-  background: #61dafb;
-  font-size: 14px;
-  transition: 0.2s;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-

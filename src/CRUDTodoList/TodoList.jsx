@@ -62,6 +62,7 @@ function TodoList() {
         onChange={(e) => setText(e.target.value)}
       />
       <button onClick={handleAdd}>Add</button>
+
       <ul>
         {todo.map((element, index) => (
           <li key={index}>
@@ -73,7 +74,7 @@ function TodoList() {
                   onChange={(e) => setEditText(e.target.value)}
                 />             
                 <button onClick={handleUpdate}>Update</button>
-              </div>
+              </div>//{dấu : sẽ trả ngược lại kết quả...chạy map sẽ kiểm chạy nd người dùng nhập vào}
             ) : (
               <>
                 <span
